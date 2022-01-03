@@ -1,0 +1,352 @@
+body {
+    font-family: 'Vazir', Consolas, sans-serif;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Vazir.eot');
+    src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Vazir.woff2') format('woff2'),
+    url('fonts/Vazir.woff') format('woff'),
+    url('fonts/Vazir.ttf') format('truetype');
+}
+
+.navBar {
+    padding-right: 80px;
+    height: 100px;
+    z-index: 2;
+    transition: all .2s;
+}
+
+.menuBar {
+    direction: rtl;
+    background-color: white;
+    display: inline;
+    float: right;
+    margin-right: 100px;
+    margin-top: 37px;
+    z-index: 2;
+    transition: all .2s;
+}
+.menuBar li {
+    display: inline-block;
+    padding:0px;
+    list-style: none;
+    position: relative;
+    margin-left: 20px;
+    transition: all .2s;
+}
+.menuBar li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: grey;
+    display: block;
+    transition: all .2s;
+}
+.subMenu {
+    z-index: 2;
+    display: none;
+    padding: 0;
+    position: absolute;
+    transition: all .2s;
+}
+.subMenu3 {
+    display: none;
+    padding: 0;
+    position: absolute;
+    transition: all .2s;
+}
+.subMenu2 {
+    display: none;
+    padding: 0;
+    position: absolute;
+    transition: all .2s;
+}
+
+.menuBar li:hover .subMenu {
+    display: block;
+    width: 210px;
+    border: 2px solid white;
+    border-radius: 2px;
+    box-shadow: 0 0 5px grey;
+    padding: 20px;
+    background-color: white;
+}
+.subMenu li:hover .subMenu2 {
+    display: block;
+    width: 210px;
+    background-color: white;
+    z-index: 2;
+    right: 100%;
+    top: -0px;
+    border: 2px solid white;
+    border-radius: 2px;
+    box-shadow: 0 0 5px grey;
+    padding: 20px;
+    background-color: white;
+}
+/*.subMenu2 li:hover .subMenu3 {*/
+/*    display: block;*/
+/*    width: 210px;*/
+/*    background-color: green;*/
+/*    z-index: 2;*/
+/*    right: 100%;*/
+/*    top: -0px;*/
+/*    padding-right: 60%;*/
+/*}*/
+.menuBar li :hover {
+    /*background-color: white;*/
+    color: palevioletred;
+    width: 100%;
+}
+.btn {
+    background-color: #e1e1e1;
+    color: grey;
+    font-family: 'Vazir', Consolas, sans-serif;
+    font-size: 15px;
+    border-radius: 3px;
+    border:0;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    margin-left: 5px;
+    right: px;
+    top: 30px;
+    transition: all .2s;
+}
+
+.btnI {
+    background-color: #e1e1e1;
+    color: grey;
+    font-family: 'Vazir', Consolas, sans-serif;
+    font-size: 15px;
+    border-radius: 3px;
+    border:0;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-left: 5px;
+    right: 0px;
+    top: 30px;
+    transition: all .2s;
+}
+
+#singUpButton {
+    background-color: #ff269b;
+    color: white;
+    font-family: 'Vazir', Consolas, sans-serif;
+    font-size: 15px;
+    border-radius: 3px;
+    border:0;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    margin-left: 95px;
+    right: 0px;
+    top: 30px;
+    transition: all .2s;
+}
+
+#callButton {
+    background-color: #b8e3b8;
+    color: #16b916;
+    font-family: 'Vazir', Consolas, sans-serif;
+    font-size: 15px;
+    border-radius: 3px;
+    border:0;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-left: 5px;
+    right: 0px;
+    top: 30px;
+    transition: all .2s;
+}
+
+.btn:hover {
+    background-color: #bbbbbb;
+}
+.btnI:hover {
+    background-color: #bbbbbb;
+}
+
+#singUpButton:hover {
+    background-color: #ff008b;
+}
+
+#callButton:hover {
+    background-color: #92e192;
+}
+
+#siteLogo {
+    position: absolute;
+    display: inline-block;
+    right: 120px;
+    top: 25px;
+}
+#siteLogo img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 8px;
+    right: -50px;
+}
+#siteLogo h1 {
+    font-size: 20px;
+}
+
+#background {
+    width: 50%;
+    border-radius: 0 1000px 1000px 0;
+    margin-top: 30px;
+}
+
+#header {
+    position: absolute;
+    top: 300px;
+    right: 70px;
+}
+#description {
+    position: absolute;
+    top: 380px;
+    right: 70px;
+    direction: rtl;
+    width: 555px;
+    color: grey;
+}
+
+#learnButton {
+    position: absolute;
+    top:500px;
+    right: 80px;
+    background-color: #ff269b;
+    color: white;
+    font-family: 'Vazir', Consolas, sans-serif;
+    font-size: 15px;
+    border-radius: 3px;
+    border:0;
+    width: 130px;
+    height: 45px;
+    transition: all .2s;
+}
+
+#serviceButton {
+    position: absolute;
+    top:500px;
+    right: 230px;
+    background-color: grey;
+    color: white;
+    font-family: 'Vazir', Consolas, sans-serif;
+    font-size: 15px;
+    border-radius: 3px;
+    border:0;
+    width: 130px;
+    height: 45px;
+    transition: all .2s;
+}
+
+#learnButton:hover {
+    background-color: #ff008d;
+}
+
+#serviceButton:hover {
+    background-color: #676767;
+}
+
+#googlePartnerCard {
+    background-color: white;
+    width: 350px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    right: 90px;
+    top: 680px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px #b6b6b6;
+    transition: all .2s;
+}
+
+#googlePartnerCard img {
+    margin-top: 17px;
+    margin-right: 15px;
+    float: right;
+}
+
+#googlePartnerCard h3 {
+    position: absolute;
+    right: 90px;
+    top: 7px;
+}
+
+#googlePartnerCard p {
+    position: absolute;
+    font-size: 15px;
+    right: 90px;
+    top: 39px;
+    color: #676767;
+}
+
+#googlePartnerCard:hover {
+    transform: translate(0,-4px);
+}
+
+#honorCard {
+    background-color: white;
+    width: 350px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    right: 470px;
+    top: 680px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px #b6b6b6;
+    transition: all .2s;
+}
+
+#honorCard img {
+    margin-top: 17px;
+    margin-right: 15px;
+    float: right;
+}
+
+#honorCard h3 {
+    direction: rtl;
+    position: absolute;
+    right: 90px;
+    top: 7px;
+}
+
+#honorCard p {
+    position: absolute;
+    font-size: 15px;
+    right: 90px;
+    top: 39px;
+    color: #676767;
+}
+
+#honorCard:hover {
+    transform: translate(0,-4px);
+}
+
+#consultingButton {
+    position: sticky;
+    bottom: 15px;
+    align-self: flex-end;
+    left: 95%;
+    width: 50px;
+    height: 50px;
+    background-color: peru;
+    border-radius: 50%;
+    font-size: 20px;
+    border: none;
+    color: white;
+    box-shadow: 0 0 12px peru;
+    transition: all .2s;
+}
+#consultingButton:hover {
+    transform: scale(1.1,1.1);
+    box-shadow: 0 0 20px peru;
+}

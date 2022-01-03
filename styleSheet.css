@@ -113,7 +113,7 @@ body {
     height: 40px;
     position: relative;
     margin-left: 5px;
-    right: px;
+    right: 0;
     top: 30px;
     transition: all .2s;
 }
@@ -129,7 +129,6 @@ body {
     height: 40px;
     position: relative;
     margin-left: 5px;
-    right: 0px;
     top: 30px;
     transition: all .2s;
 }
@@ -145,7 +144,6 @@ body {
     height: 40px;
     position: relative;
     margin-left: 95px;
-    right: 0px;
     top: 30px;
     transition: all .2s;
 }
@@ -161,7 +159,6 @@ body {
     height: 40px;
     position: relative;
     margin-left: 5px;
-    right: 0px;
     top: 30px;
     transition: all .2s;
 }
